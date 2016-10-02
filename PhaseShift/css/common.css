@@ -1,0 +1,760 @@
+@font-face {
+font-family: roboto_medium;
+src: url("../fonts/roboto/Roboto-Medium.woff");
+}
+/*aboutus css starts here*/
+body{
+  overflow-x: hidden;
+}
+strong{
+  color: rgba(111,46,136,1);
+}
+.ps-logo{
+  margin-left: 0.5%;
+  background-image: url("../images/Logo_white.png");
+  width: 100px;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.grad{
+  background: -webkit-linear-gradient(left, rgba(35,63,142,1), rgba(111,46,136,1));
+  background: -o-linear-gradient(left, rgba(35,63,142,1), rgba(111,46,136,1));
+  background: linear-gradient(left, rgba(35,63,142,1), rgba(111,46,136,1));
+  background: -moz-linear-gradient(left, rgba(35,63,142,1), rgba(111,46,136,1));
+}
+
+.grad2{
+  background: -webkit-linear-gradient(left, rgba(111,46,136,1),rgba(35,63,142,1));
+  background: -o-linear-gradient(left, rgba(111,46,136,1),rgba(35,63,142,1));
+  background: linear-gradient(left, rgba(111,46,136,1),rgba(35,63,142,1));
+  background: -moz-linear-gradient(left, rgba(111,46,136,1),rgba(35,63,142,1));
+}
+.header{
+  color : rgba(35,63,142,1);
+  font-size: 3vw;
+  font-weight: 300;
+}
+.fa-knsi-custom{
+  color : rgb(35,63,142) !important;
+}
+
+.parallax-container{
+  min-width: 100%;
+  height: 370px;
+}
+.other-card-section{
+  font-size: 1.4vw;
+}
+.second-card-section{
+  font-size: 1.4vw;
+}
+#nav-button{
+  margin-left: 2%;
+  margin-top: 3%;
+}
+.nav-list{
+  margin-top: 0.8%;
+}
+.nav-list>li{
+    margin-top: -2%;
+}
+.nav-list >li>a{
+  height: 85px;
+  padding-top: 15px;
+}
+.about-data-container{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 79%;
+  text-align: justify;
+}
+.nav-white-button{
+  line-height: 80px !important;
+}
+/*aboutus css ends here*/
+
+
+/*events css starst here*/
+
+.event-desc{
+  color: rgb(111,46,136);
+}
+.event-head{
+  color: rgb(35,63,142);
+  font-size: 16px;
+}
+.event-info{
+  color: rgb(35,63,142);
+  font-size: 22px;
+}
+/*events css ends here*/
+
+
+/*common css starts here*/
+.bg-color{
+  background-color: white;
+}
+body{
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  background: floralwhite;
+}
+footer{
+  position:relative;
+}
+.footer-content{
+  margin-left: 18%;
+  padding-right: 0%;
+}
+.footer-list{
+  text-decoration: none;
+  color: white;
+  font-size: 1vw;
+  margin-top: -1%;
+}
+.footer-list >li > a{
+  text-decoration: none;
+  color: white;
+}
+.footer-heading{
+  color: white;
+  font-weight: 300;
+  font-size: 2vw;
+}
+a{
+  color: rgba(111,46,136,1);
+}
+.nav-size{
+  height: 80px;
+}
+.white-nav-button{
+  font-size: 3.7rem !important;
+}
+.wifi-design{
+  background: url("../svgs/wifi_design.svg");
+  height: 100%;
+  width: 100%;
+  background-color: floralwhite;
+  opacity: 0.2;
+  position: fixed;
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+          /*transform: translate(-32%,0);*/
+}
+/*common css ends here*/
+
+
+/* login css starts here*/
+
+.input-field input[type=text]:focus + label {
+     color: rgba(111,46,136,1);
+   }
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgba(35,63,142,1);
+  box-shadow: 0 1px 0 0 rgba(35,63,142,1);
+}
+
+.input-field input[type=password]:focus + label {
+     color: rgba(111,46,136,1);
+   }
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid rgba(35,63,142,1);
+  box-shadow: 0 1px 0 0 rgba(35,63,142,1);
+}
+.input-field input[type=email]:focus + label {
+     color: rgba(111,46,136,1);
+   }
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid rgba(35,63,142,1);
+  box-shadow: 0 1px 0 0 rgba(35,63,142,1);
+}
+.input-field input[type=number]:focus + label {
+     color: rgba(111,46,136,1);
+   }
+.input-field input[type=number]:focus {
+  border-bottom: 1px solid rgba(35,63,142,1);
+  box-shadow: 0 1px 0 0 rgba(35,63,142,1);
+}
+.login-button{
+  background: rgba(35,63,142,1);
+  transition: all 1s ease;
+}
+.login-button:hover{
+  background: rgba(111,46,136,1);
+  transition: all 1s ease;
+}
+/* login css ends here*/
+
+/*events css starts*/
+.event-types{
+  z-index: 997;
+}
+.button-color{
+  color: black;
+}
+.type-list > li{
+  width: 20%;
+  text-align: center;
+}
+.type-list > li >a{
+  color: rgba(35,63,142,1);
+}
+.type2{
+  display: none;
+}
+.type3{
+  display: none;
+}
+.type4{
+  display: none;
+}
+.type5{
+  display: none;
+}
+.row-cards{
+  margin-top: 5%;
+
+}
+.row-2-cards{
+  margin-right: -6%;
+  margin-left: 3%
+}
+#type-button{
+  color: rgba(35,63,142,1);
+  margin-left: 5%;
+  font-size: 3vw;
+  width: 90%;
+  display: none;
+}
+#event-dropdown{
+  width: 100%;
+  margin-left: 5%;
+}
+.dropdown-content li>a {
+    font-size: 16px;
+    color: rgba(35,63,142,1);
+    display: block;
+    line-height: 25px;
+    padding-top: 15px;
+    font-size: 3vw;
+    text-align: center;
+}
+.register-link{
+  color: rgba(35,63,142,1) !important;
+}
+/*Event css ends*/
+
+
+/*Pre Events css starts here*/
+.pre-container{
+  width: 80%;
+}
+.card-font{
+  font-weight: 400;
+  font-size: 1.5vw;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.precard-font{
+  font-weight: 400;
+  text-align:center;
+  color: rgba(35,63,142,1) !important;
+}
+.pre-event-img{
+  overflow-x: hidden;
+}
+.pre-event-img >img{
+  margin-left: 50%;
+  transform: translate(-50%,0);
+}
+.pre-event-text{
+  padding: 0px 18px !important;
+}
+/*Pre Events css ends here*/
+
+
+/*sponsors css starts*/
+.sponsors-headers{
+  color : rgba(111,46,136,1);
+  font-size: 2.5vw;
+  font-weight: 500;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  text-align: center;
+}
+.prospective-list{
+  margin-left: 2%;
+}
+.prospective-list > div > p{
+  margin-left: 5%;
+  color : rgba(35,63,142,1);
+  font-size: 1.5vw;
+}
+.title-sponsor-logo > img{
+  margin-left: 50%;
+  transform: translate(-50%,0);
+}
+.sponsors-container{
+  margin-left: 10%;
+  overflow: hidden;
+  margin-top: 5%;
+}
+/*sponsors css ends*/
+
+/*modal stuff begins here*/
+.modal-header{
+  color: rgba(35,63,142,1);
+}
+.modal-closer{
+  background-color: floralwhite !important;
+}
+.modal-text-color{
+  color: rgba(111, 46, 136, 1);
+}
+/*modal stuff ends here*/
+
+/*schedule stuff starts here*/
+.schedule-container{
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-right: 3%;
+}
+.table-headings > th{
+  color: rgba(111,46,136,1);
+  border: 1px solid rgba(111, 46, 136, 1);
+}
+.table-events > td{
+  color: rgba(35,63,142,1);
+  border: 1px solid rgba(35,63,142,1);
+}
+.table-first{
+   border: 3px solid rgba(111, 46, 136, 1);
+}
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    background-color: rgba(111, 46, 136, 1);
+    will-change: left, right;
+}
+/*schedule stuff ends here*/
+
+/*myaccount css starts*/
+.logout-btn{
+  background-color: rgba(111, 46, 136, 1);
+}
+.logout-btn:hover{
+  background-color: rgba(35,63,142,1);
+}
+.account-table{
+  color: rgba(35,63,142,1);
+}
+/*myaccount css ends*/
+
+@media (max-width: 992px) {
+  #type-button{
+    display: block;
+  }
+  .nav-container>ul>li>a:hover{
+    color: rgb(255, 255, 255) !important;
+    background: -webkit-linear-gradient(left, rgba(35,63,142,1), rgba(111,46,136,1));
+    background: -o-linear-gradient(left, rgba(35,63,142,1), rgba(111,46,136,1));
+    background: linear-gradient(left, rgba(35,63,142,1), rgba(111,46,136,1));
+    background: -moz-linear-gradient(left, rgba(35,63,142,1), rgba(111,46,136,1));
+  }
+  .card-font{
+    font-weight: 400;
+    font-size: 2.5vw;
+  }
+  .login-card{
+    margin-top: 25%;
+  }
+  .schedule-container{
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .table-headings > th{
+    color: rgba(111,46,136,1);
+    border: 1px solid rgba(111, 46, 136, 1);
+    font-size: 2.5vw;
+  }
+  .table-events > td{
+    color: rgba(35,63,142,1);
+    border: 1px solid rgba(35,63,142,1);
+    font-size: 2.5vw;
+  }
+  .event-days{
+    height: 80px;
+  }
+  .event-days >li >a{
+    font-size: 2.5vw;
+    margin-top: 2%;
+  }
+  .event-head{
+    font-size: 4vw;
+  }
+  .card-content{
+    font-size: 3vw;
+  }
+  .event-card{
+    margin-top: 5%;
+    width: 98%;
+    left: 2%;
+    height: 550px !important;
+  }
+  .event-info-icon{
+    font-size: 4vw !important;
+    margin-right: 1%;
+  }
+  .register-link{
+    color: rgba(35,63,142,1) !important;
+    font-size: 2.5vw;
+  }
+  .nav-container>ul{
+    width: 50%;
+    z-index: 998;
+  }
+
+  .hamburger-icon{
+    width: 56px;
+  }
+
+  .side-nav-custom a {
+    font-size: 17px;
+    font-weight: 500;
+    height: 71px;
+  }
+  .sponsors-container{
+    margin-left: 0%;
+    overflow: hidden;
+    margin-top: 5%;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .upper-img{
+    position: relative;
+
+    z-index: 997;
+    position: absolute;
+    left: 50%;
+    background: url("../svgs/logo.svg");
+    background-repeat: no-repeat;
+    width: 250px;
+    height : 136.875px;
+    top : 40%;
+    transform: translate(-35%, 0);
+
+
+  }
+
+  .nav-container>ul{
+    width: 50%;
+    z-index: 998;
+  }
+
+  .hamburger-icon{
+    width: 56px;
+  }
+
+  .side-nav-custom a {
+    font-size: 17px;
+    font-weight: 500;
+    height: 71px;
+}
+
+  .desktop,.android_phone,.android_phone2,.android_watch,.iphone,.iwatch,.tablet{
+    display: none;
+  }
+
+  .parallax-container{
+      min-width: 100%;
+      height: 600px;
+  }
+  .pre-container{
+    width: 85%;
+  }
+  .card-font{
+    font-weight: 400;
+    font-size: 2.5vw;
+
+  }
+  .nav-size-mobile{
+    width: 50%;
+  }
+  .nav-size-mobile > li{
+    margin-top: 3%;
+  }
+  .nav-size-mobile > li >a{
+    font-size: 2vw;
+  }
+  .nav-size{
+    height: 120px;
+  }
+  .nav-container>ul>li>a:hover{
+    color: rgb(255, 255, 255) !important;
+    background: -webkit-linear-gradient(left, rgba(35,63,142,1), rgba(111,46,136,1));
+    background: -o-linear-gradient(left, rgba(35,63,142,1), rgba(111,46,136,1));
+    background: linear-gradient(left, rgba(35,63,142,1), rgba(111,46,136,1));
+    background: -moz-linear-gradient(left, rgba(35,63,142,1), rgba(111,46,136,1));
+  }
+  .nav-container>ul>a,.nav-container>ul>li>a{
+
+    height: 64px;
+
+  }
+  .other-card-section{
+    line-height: 1.5;
+    font-size: 2.6vw;
+  }
+  .second-card-section{
+    font-size: 2.6vw;
+  }
+  .footer-content{
+    margin-left: 10%;
+  }
+  .footer-list{
+    text-decoration: none;
+    color: white;
+    font-size: 2.6vw;
+    margin-top: -1%;
+  }
+  .footer-list > li{
+    padding-left: 10%;
+  }
+  .footer-heading{
+    color: white;
+    font-weight: 200;
+    font-size: 3.6vw;
+  }
+  .connect{
+    padding-left: 0%;
+  }
+  .ps-logo{
+    background-image: url("../images/Logo_white_large.png");
+    width: 150px;
+    height: 120px;
+    margin-top: -2%;
+    background-repeat: no-repeat;
+  }
+  .row-cards{
+    margin-top: 2%;
+    margin-left: auto;
+  }
+  .event-card{
+    margin-top: 5%;
+    width: 98%;
+    left: 2%;
+    height: 550px !important;
+  }
+  #type-button{
+    color: rgba(35,63,142,1);
+    margin-left: 5%;
+    font-size: 3vw;
+    width: 90%;
+    display: block;
+  }
+  .schedule-container{
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .table-headings > th{
+    color: rgba(111,46,136,1);
+    border: 1px solid rgba(111, 46, 136, 1);
+    font-size: 2.5vw;
+  }
+  .table-events > td{
+    color: rgba(35,63,142,1);
+    border: 1px solid rgba(35,63,142,1);
+    font-size: 2.5vw;
+  }
+  .event-days{
+    height: 80px;
+  }
+  .event-days >li >a{
+    font-size: 2.5vw;
+    margin-top: 2%;
+  }
+  .event-head{
+    font-size: 4vw;
+  }
+  .card-content{
+    font-size: 3vw;
+  }
+  .event-info-icon{
+    font-size: 4vw !important;
+    margin-right: 1%;
+  }
+  .register-link{
+    color: rgba(35,63,142,1) !important;
+    font-size: 2.5vw;
+  }
+  .sponsors-container{
+    margin-left: 0%;
+    overflow: hidden;
+    margin-top: 5%;
+  }
+}
+
+
+@media (max-device-width: 768px) {
+    .parallax-container{
+        min-width: 100%;
+        height: 600px;
+    }
+    .side-nav-custom i{
+      padding-right: 50px;
+    }
+    .nav-size-mobile{
+      width: 50%;
+    }
+    .meet-team-a{
+    	font-size: 42px;
+    }
+    .nav-size-mobile > li{
+      height: 5%;
+      margin-top: 3%;
+    }
+    .card-reveal{
+     font-size: 2.5vw;
+    }
+    .pre-container{
+      width: 85%;
+    }
+    .login-card{
+      margin-top: 50%;
+    }
+    .input-field label{
+      font-size: 3rem;
+    }
+    .precard-font{
+      font-size: 2.5rem;
+    }
+    .input-field label.active{
+      font-size: 1.8rem;
+    }
+    #username,#password,#email,#phone{
+      height : 6rem;
+      font-size: 3.5vw;
+    }
+    .login-button{
+      height: 4rem;
+      padding-top: 8px;
+    }
+    .nav-size-mobile > li >a{
+      font-size: 3vw;
+    }
+    .nav-size{
+      height: 120px;
+    }
+    .other-card-section{
+      line-height: 1.5;
+      font-size: 2.6vw;
+    }
+    .second-card-section{
+      font-size: 2.6vw;
+    }
+    .footer-content{
+      margin-left: 10%;
+    }
+    .footer-list{
+      text-decoration: none;
+      color: white;
+      font-size: 2.6vw;
+      margin-top: -1%;
+    }
+    .footer-list > li{
+      padding-left: 10%;
+    }
+    .footer-heading{
+      color: white;
+      font-weight: 200;
+      font-size: 3.6vw;
+    }
+    .connect{
+      padding-left: 0%;
+    }
+    .ps-logo{
+      background-image: url("../images/Logo_white_large.png");
+      width: 150px;
+      height: 120px;
+      margin-top: -2%;
+      background-repeat: no-repeat;
+    }
+    .row-cards{
+      margin-top: 2%;
+      margin-left: auto;
+    }
+    .event-card{
+      margin-top: 5%;
+      width: 98%;
+      left: 2%;
+      height: 550px !important;
+    }
+    #type-button{
+      color: rgba(35,63,142,1);
+      margin-left: 5%;
+      font-size: 3vw;
+      width: 90%;
+      display: inline;
+    }
+    .prospective-list>div>p{
+      font-size: 2.5vw;
+    }
+    .footer-list i{
+    	padding-right: 16px;
+    }
+    .schedule-container{
+      margin-left: 3%;
+      margin-top: 3%;
+      margin-right: 3%;
+      overflow: auto;
+      white-space: nowrap;
+    }
+    .table-headings > th{
+      color: rgba(111,46,136,1);
+      border: 1px solid rgba(111, 46, 136, 1);
+      font-size: 2.5vw;
+    }
+    .table-events > td{
+      color: rgba(35,63,142,1);
+      border: 1px solid rgba(35,63,142,1);
+      font-size: 2.5vw;
+    }
+    .event-days{
+      height: 80px;
+    }
+    .event-days >li >a{
+      font-size: 2.5vw;
+      margin-top: 2%;
+    }
+    .event-head{
+      font-size: 4vw;
+    }
+    .card-content{
+      font-size: 2vw;
+    }
+    .event-info-icon{
+      font-size: 4vw !important;
+      margin-right: 1%;
+    }
+    .register-link{
+      color: rgba(35,63,142,1) !important;
+      font-size: 2.5vw;
+    }
+    .sponsors-container{
+      margin-left: 0%;
+      overflow: hidden;
+      margin-top: 5%;
+    }
+}
