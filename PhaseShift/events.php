@@ -93,7 +93,7 @@ $format = '<div class="col s12 m12 l4">
 
         <?php
 
-            $conn = new PDO("mysql:host=localhost;dbname=ps2016","bmscehosting","webAdminps2016");
+            $conn = new PDO("mysql:host=localhost;dbname=ps2016","username","password");
             $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
             $stmt = $conn->prepare('SELECT * FROM events WHERE Type = :Type ORDER BY id' );
